@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        DataClass1("Hello World")
+        binding.dataItem = DataClass1("Hello World")
+        // 'dataItem' is name on layout xml file
 
     }
 
