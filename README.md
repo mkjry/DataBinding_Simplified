@@ -32,5 +32,8 @@ https://github.com/mkjry/DataBinding_Simplified/commit/6ad439d3eb74be735270ffa3f
 
 https://github.com/mkjry/DataBinding_Simplified/commit/6ad439d3eb74be735270ffa3fcc5939d25d1d4f9
 
+![image](https://github.com/mkjry/DataBinding_Simplified/assets/132794460/8377c313-a520-4182-876e-a9a4caa3dddc)
+
+
 *code update history list
 https://github.com/mkjry/DataBinding_Simplified/commits/main/
