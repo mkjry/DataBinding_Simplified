@@ -34,13 +34,7 @@ https://github.com/mkjry/DataBinding_Simplified/commit/6ad439d3eb74be735270ffa3f
 
 7. connect observe to xml layout from Activity
 
-   class MainActivity : AppCompatActivity() {
-     private lateinit var binding: ActivityMainBinding
-     binding = ActivityMainBinding.inflate(layoutInflater)
-     setContentView(binding.root)
-
-     binding.dataItem = DataClass1("Hello World")
-     // 'dataItem' is name on layout xml file
+   ![image](https://github.com/mkjry/DataBinding_Simplified/assets/132794460/3a474f67-a773-4a10-898e-9718f6b7c0f4)
 
    activity_main.xml
    
