@@ -34,6 +34,22 @@ https://github.com/mkjry/DataBinding_Simplified/commit/6ad439d3eb74be735270ffa3f
 
 ![image](https://github.com/mkjry/DataBinding_Simplified/assets/132794460/8377c313-a520-4182-876e-a9a4caa3dddc)
 
+7. connect observe to xml layout from Activity
+
+   class MainActivity : AppCompatActivity() {
+     private lateinit var binding: ActivityMainBinding
+     binding = ActivityMainBinding.inflate(layoutInflater)
+     setContentView(binding.root)
+
+     binding.dataItem = DataClass1("Hello World")
+     // 'dataItem' is name on layout xml file
+
+   activity_main.xml
+     <data>
+        <variable
+            name="dataItem"
+            type="com.ssj.databinding_simplified.DataClass1" />
+    </data>
 
 *code update history list
 https://github.com/mkjry/DataBinding_Simplified/commits/main/
