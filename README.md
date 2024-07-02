@@ -43,11 +43,8 @@ https://github.com/mkjry/DataBinding_Simplified/commit/6ad439d3eb74be735270ffa3f
      // 'dataItem' is name on layout xml file
 
    activity_main.xml
-//     <data>
-//        <variable
-//            name="dataItem"
-//            type="com.ssj.databinding_simplified.DataClass1" />
-//    </data>
+   
+   ![image](https://github.com/mkjry/DataBinding_Simplified/assets/132794460/87525ae6-e1c1-424f-a723-f725edce1378)
 
 *code update history list
 https://github.com/mkjry/DataBinding_Simplified/commits/main/
